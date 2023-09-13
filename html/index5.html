@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../css/estilo1.css">
+</head>
+<body>
+    <form action="../php/insertarFORM5.php" method="post" class="form">
+        <h2 class="form_tittle">Registro de Ventas</h2>
+
+            
+        </p>
+        <div class="form_container">
+            
+            <div class="form_group">
+                <input name="Fecha" type="date" id="fecha" class="form_input" placeholder=" ">
+                <label for="fecha" class="form_label">Fecha</label>
+                <span class="form_line"></span>
+            </div>
+            <div class="form_group">
+                <input name="MontoI" type="text" id="montoi" class="form_input" placeholder=" ">
+                <label for="montoi" class="form_label">Monto Inicial</label>
+                <span class="form_line"></span>
+            </div>
+            <br>
+
+            <div class="form_group">
+                <input name="MontoF" type="text" id="montof" class="form_input" placeholder=" ">
+                <label for="montof" class="form_label">Monto Final</label>
+                <span class="form_line"></span>
+            </div>
+            <br>
+            <input type="submit" class="form_submit" value="Enviar">
+        </div>
+    </form>
+</body>
+</html>

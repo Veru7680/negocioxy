@@ -1,0 +1,3 @@
+<?php 
+   echo "<h1> esta es una prueba</h1>";
+?>
